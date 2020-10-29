@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_blur_mb"
+        android:padding="@dimen/app_spacing_20dp">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lbl_which_ssid_do_you_use"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_text_size_20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideLine" />
+
+        <TextView
+            android:id="@+id/txtTitleSSID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/app_spacing_8dp"
+            android:layout_marginRight="@dimen/app_spacing_8dp"
+            android:includeFontPadding="false"
+            android:text="@string/text_ssid"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_text_size_16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/contraintEditSSID"
+            app:layout_constraintEnd_toStartOf="@+id/contraintEditSSID"
+            app:layout_constraintTop_toTopOf="@+id/contraintEditSSID" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/contraintEditSSID"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/app_spacing_48dp"
+            android:layout_marginTop="@dimen/app_spacing_24dp"
+            android:background="@drawable/shape_bg_layout_edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtInputPw"
+            app:layout_constraintTop_toBottomOf="@+id/txtHeader">
+
+            <EditText
+                android:id="@+id/editSSID"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/app_spacing_48dp"
+                android:text="ddd"
+                android:background="@color/transparent"
+                android:paddingStart="@dimen/app_spacing_4dp"
+                android:paddingLeft="@dimen/app_spacing_4dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/app_text_size_16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtScan"/>
+
+            <TextView
+                android:id="@+id/txtScan"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:paddingStart="@dimen/app_spacing_8dp"
+                android:paddingEnd="@dimen/app_spacing_8dp"
+                android:text="@string/lbl_scan"
+                android:textSize="@dimen/app_text_size_16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/txtTitlePw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/app_spacing_28dp"
+            android:includeFontPadding="false"
+            android:text="@string/text_psw"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_text_size_16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contraintEditSSID" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtInputPw"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/app_spacing_48dp"
+            android:layout_marginStart="@dimen/app_spacing_12dp"
+            android:layout_marginLeft="@dimen/app_spacing_12dp"
+            android:background="@drawable/shape_bg_layout_edit_text"
+            android:textColorHint="@color/colorWhiteTransparent50"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false"
+            app:layout_constraintBottom_toBottomOf="@+id/txtTitlePw"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtTitlePw"
+            app:layout_constraintTop_toTopOf="@+id/txtTitlePw"
+            app:passwordToggleDrawable="@drawable/ic_password_toggle"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorWhiteTransparent50">
+
+            <EditText
+                android:id="@+id/editPsw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:hint="@string/lbl_hint_pwd"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingStart="@dimen/app_spacing_4dp"
+                android:paddingEnd="@dimen/app_spacing_4dp"
+                android:text="88888888"
+                android:textColor="@color/white"
+                android:textColorHint="@color/colorWhiteTransparent20"
+                android:textSize="@dimen/app_text_size_16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/app_spacing_40dp"
+            android:layout_marginTop="@dimen/app_spacing_18dp"
+            android:background="@color/blue_btn_bg_pressed_color"
+            android:gravity="center"
+            android:text="@string/lbl_connect"
+            android:textSize="@dimen/app_text_size_16sp"
+            app:layout_constraintEnd_toEndOf="@+id/txtInputPw"
+            app:layout_constraintStart_toStartOf="@+id/txtInputPw"
+            app:layout_constraintTop_toBottomOf="@+id/txtInputPw" />
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/btnConf"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnConf" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewList"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/app_spacing_4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnConf" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

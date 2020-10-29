@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="app_spacing_1dp">@dimen/qb_px_1</dimen>
+    <dimen name="app_spacing_2dp">@dimen/qb_px_2</dimen>
+    <dimen name="app_spacing_3dp">@dimen/qb_px_3</dimen>
+    <dimen name="app_spacing_4dp">@dimen/qb_px_4</dimen>
+    <dimen name="app_spacing_5dp">@dimen/qb_px_5</dimen>
+    <dimen name="app_spacing_6dp">@dimen/qb_px_6</dimen>
+    <dimen name="app_spacing_8dp">@dimen/qb_px_8</dimen>
+    <dimen name="app_spacing_9dp">@dimen/qb_px_9</dimen>
+    <dimen name="app_spacing_10dp">@dimen/qb_px_10</dimen>
+    <dimen name="app_spacing_12dp">@dimen/qb_px_12</dimen>
+    <dimen name="app_spacing_13dp">@dimen/qb_px_13</dimen>
+    <dimen name="app_spacing_14dp">@dimen/qb_px_14</dimen>
+    <dimen name="app_spacing_16dp">@dimen/qb_px_16</dimen>
+    <dimen name="app_spacing_18dp">@dimen/qb_px_18</dimen>
+    <dimen name="app_spacing_20dp">@dimen/qb_px_20</dimen>
+    <dimen name="app_spacing_21dp">@dimen/qb_px_21</dimen>
+    <dimen name="app_spacing_24dp">@dimen/qb_px_24</dimen>
+    <dimen name="app_spacing_28dp">@dimen/qb_px_28</dimen>
+    <dimen name="app_spacing_32dp">@dimen/qb_px_32</dimen>
+    <dimen name="app_spacing_33dp">@dimen/qb_px_33</dimen>
+    <dimen name="app_spacing_36dp">@dimen/qb_px_36</dimen>
+    <dimen name="app_spacing_40dp">@dimen/qb_px_40</dimen>
+    <dimen name="app_spacing_48dp">@dimen/qb_px_48</dimen>
+    <dimen name="app_spacing_49dp">@dimen/qb_px_49</dimen>
+    <dimen name="app_spacing_50dp">@dimen/qb_px_50</dimen>
+    <dimen name="app_spacing_54dp">@dimen/qb_px_54</dimen>
+    <dimen name="app_spacing_56dp">@dimen/qb_px_56</dimen>
+    <dimen name="app_spacing_60dp">@dimen/qb_px_60</dimen>
+    <dimen name="app_spacing_63dp">@dimen/qb_px_63</dimen>
+    <dimen name="app_spacing_64dp">@dimen/qb_px_64</dimen>
+    <dimen name="app_spacing_67dp">@dimen/qb_px_67</dimen>
+    <dimen name="app_spacing_68dp">@dimen/qb_px_68</dimen>
+    <dimen name="app_spacing_70dp">@dimen/qb_px_70</dimen>
+    <dimen name="app_spacing_72dp">@dimen/qb_px_72</dimen>
+    <dimen name="app_spacing_74dp">@dimen/qb_px_74</dimen>
+    <dimen name="app_spacing_78dp">@dimen/qb_px_78</dimen>
+    <dimen name="app_spacing_80dp">@dimen/qb_px_80</dimen>
+    <dimen name="app_spacing_88dp">@dimen/qb_px_88</dimen>
+    <dimen name="app_spacing_90dp">@dimen/qb_px_90</dimen>
+    <dimen name="app_spacing_96dp">@dimen/qb_px_96</dimen>
+    <dimen name="app_spacing_102dp">@dimen/qb_px_102</dimen>
+    <dimen name="app_spacing_112dp">@dimen/qb_px_112</dimen>
+    <dimen name="app_spacing_120dp">@dimen/qb_px_120</dimen>
+    <dimen name="app_spacing_128dp">@dimen/qb_px_128</dimen>
+    <dimen name="app_spacing_140dp">@dimen/qb_px_140</dimen>
+    <dimen name="app_spacing_152dp">@dimen/qb_px_152</dimen>
+    <dimen name="app_spacing_160dp">@dimen/qb_px_160</dimen>
+    <dimen name="app_spacing_200dp">@dimen/qb_px_200</dimen>
+    <dimen name="app_spacing_250dp">@dimen/qb_px_250</dimen>
+    <dimen name="app_spacing_300dp">@dimen/qb_px_300</dimen>
+    <dimen name="app_spacing_302dp">@dimen/qb_px_302</dimen>
+    <dimen name="app_spacing_380dp">@dimen/qb_px_380</dimen>
+    <dimen name="app_spacing_426dp">@dimen/qb_px_426</dimen>
+
+    <dimen name="bottom_navigation_margin_top_active">@dimen/app_spacing_8dp</dimen>
+
+    <dimen name="status_bar_height">@dimen/app_spacing_16dp</dimen>
+
+
+    <dimen name="app_text_size_8sp">8sp</dimen>
+    <dimen name="app_text_size_10sp">10sp</dimen>
+    <dimen name="app_text_size_12sp">12sp</dimen>
+    <dimen name="app_text_size_13sp">13sp</dimen>
+    <dimen name="app_text_size_14sp">14sp</dimen>
+    <dimen name="app_text_size_16sp">16sp</dimen>
+    <dimen name="app_text_size_18sp">18sp</dimen>
+    <dimen name="app_text_size_20sp">20sp</dimen>
+    <dimen name="app_text_size_22sp">22sp</dimen>
+    <dimen name="app_text_size_24sp">24sp</dimen>
+    <dimen name="app_text_size_26sp">26sp</dimen>
+    <dimen name="app_text_size_28sp">28sp</dimen>sp
+    <dimen name="app_text_size_32sp">32sp</dimen>
+    <dimen name="app_text_size_40sp">40sp</dimen>
+    <dimen name="app_text_size_48sp">48sp</dimen>
+
+    <dimen name="item_event_height">@dimen/qb_px_70</dimen>
+    <dimen name="item_event_time_text_size">16sp</dimen>
+    <dimen name="item_event_title_text_size">16sp</dimen>
+    <dimen name="item_event_desc_text_size">12sp</dimen>
+    <dimen name="event_action_title_text_size">16sp</dimen>
+    <dimen name="event_desc_text_size">12sp</dimen>
+    <dimen name="event_title_text_size">16sp</dimen>
+    <dimen name="event_active_text_size">16sp</dimen>
+    <dimen name="event_date_text_size">14sp</dimen>
+    <dimen name="event_start">14sp</dimen>
+    <dimen name="event_start_time">16sp</dimen>
+
+</resources>
